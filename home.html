@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Video Calling</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="/sytle.css" />
+</head>
+
+<body>
+  <!-- Decorative glows -->
+  <div class="glow"></div>
+  <div class="glow left"></div>
+
+  <!-- Page header -->
+  <header>Secure &amp; Stylish Video Call</header>
+
+  <!-- Main section -->
+  <main>
+    <!-- Personal (share) link will be injected here -->
+    <div id="personal-link" class="link-box"></div>
+
+    <!-- ZEGOCLOUD video container -->
+    <div id="root"></div>
+  </main>
+
+  <!-- Footer -->
+  <!-- <footer>&copy; 2025 Kelly’s | Powered by ZEGOCLOUD</footer> -->
+
+  <!-- ZEGOCLOUD SDK + local script -->
+  <script src="https://unpkg.com/@zegocloud/zego-uikit-prebuilt/zego-uikit-prebuilt.js"></script>
+  <script src="/java.js"></script>
+</body>
+</html>
